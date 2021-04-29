@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+/* GENERAL */
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url("images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
+    width: 100%;
+    background-size:cover;
+    
+}
+
+h1 {
+  color: rgba(240, 248, 255, 0.961);
+  text-align: center;
+  margin-top: 15rem;
+}
+
+input[type=text] {
+    border: none;
+    /* height: 2rem: */
+   height: 2rem;
+   
+}
+
+form {
+    margin: 5rem auto;
+    height: 30%;
+    padding-left: 16rem;
+}
+
+form input {
+    margin-bottom: 2rem;
+}
+
+
+
+label {
+    color:white;
+    background-color: red;
+    width:5rem;
+    height:4rem:
+    padding:0.9rem;
+}
+
+input[type=reset] {
+    border: 1px rgb(255, 0, 0) solid;
+    padding:5px 10px 5px 10px;
+    background-color: rgba(255, 255, 255, 0.776);
+    color:red;
+}
+
+input[type=submit] {
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(247, 0, 0);
+    color:white;
+}
+
+.buttons {
+     
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* TABLET QUERY */
+@media(min-width: 768px){
+
+
+    
+} /* END: TABLET QUERY */
+
+/* DESKTOP QUERY */
+@media(min-width: 992px){
+
+
+
+} /* END: DESKTOP QUERY */
